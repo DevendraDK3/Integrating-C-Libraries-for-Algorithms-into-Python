@@ -24,7 +24,7 @@ cd algorithm-c-library-to-python
 1. Navigate to the `swig_interface` directory.
 2. Run SWIG to generate the Python interface from the C header file. For example, to generate the interface for Python 3:
 ```
-swig -python -py3 -outdir ../python_bindings your_algorithm.i
+swig -python -py3 -outdir ../python_bindings sort.i
 ```
 
 ### Build the Python Bindings
