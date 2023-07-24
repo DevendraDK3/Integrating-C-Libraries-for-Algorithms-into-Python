@@ -1,0 +1,3 @@
+swig -python sort.i
+gcc -c -fPIC sort.c sort_wrap.c -I/usr/include/python3.11
+gcc -shared -fPIC sort.o sort_wrap.o -o _sort.so -Wl,-z,relro,-z,now
